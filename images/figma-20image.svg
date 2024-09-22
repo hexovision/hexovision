@@ -1,0 +1,23 @@
+<svg width="159" height="238" viewBox="0 0 159 238" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_376_1811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="159" height="238">
+<rect width="159" height="238" fill="url(#paint0_linear_376_1811)"/>
+</mask>
+<g mask="url(#mask0_376_1811)">
+<g clip-path="url(#clip0_376_1811)">
+<path d="M39.5977 237.997C61.4556 237.997 79.1954 220.227 79.1954 198.331V158.664H39.5977C17.7398 158.664 0 176.435 0 198.331C0 220.227 17.7398 237.997 39.5977 237.997Z" fill="#0ACF83"/>
+<path d="M0 119.003C0 97.1066 17.7398 79.3359 39.5977 79.3359H79.1954V158.669H39.5977C17.7398 158.669 0 140.899 0 119.003Z" fill="#A259FF"/>
+<path d="M0 39.6667C0 17.7707 17.7398 0 39.5977 0H79.1954V79.3333H39.5977C17.7398 79.3333 0 61.5627 0 39.6667Z" fill="#F24E1E"/>
+<path d="M79.1966 0H118.794C140.652 0 158.392 17.7707 158.392 39.6667C158.392 61.5627 140.652 79.3333 118.794 79.3333H79.1966V0Z" fill="#FF7262"/>
+<path d="M158.392 118.997C158.392 140.893 140.652 158.663 118.794 158.663C96.9364 158.663 79.1966 140.893 79.1966 118.997C79.1966 97.1007 96.9364 79.3301 118.794 79.3301C140.652 79.3301 158.392 97.1007 158.392 118.997Z" fill="#1ABCFE"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_376_1811" x1="79.5" y1="0" x2="79.5" y2="238" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D9D9D9"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0.1"/>
+</linearGradient>
+<clipPath id="clip0_376_1811">
+<rect width="159" height="238" fill="white"/>
+</clipPath>
+</defs>
+</svg>
