@@ -4227,7 +4227,7 @@ figure {
 }
 
 .about-us-contant-right-slider-wrapper {
-  background-image: url("../images/about-20us-20img.png");
+  background-image: url("../images/about-20us-20img.webp");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: auto;
@@ -4240,11 +4240,11 @@ figure {
 }
 
 .about-us-contant-right-slider-wrapper.two {
-  background-image: url("../images/mask-20group.png");
+  background-image: url("../images/mask-20group.webp");
 }
 
 .about-us-contant-right-slider-wrapper.three {
-  background-image: url("../images/mask-20group-20-1-.png");
+  background-image: url("../images/mask-20group-20-1-.webp");
 }
 
 .about-us-contant-right-slider-main-div {
@@ -4909,7 +4909,7 @@ figure {
 }
 
 .team-slide-main-top-wrapper {
-  background-image: url("../images/rectangle-2074.png");
+  background-image: url("../images/rectangle-2074.webp");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5846,7 +5846,7 @@ figure {
 
 .service-single-main-rich-text li {
   grid-column-gap: 12px;
-  background-image: url("../images/checkmark-circle-01-stroke-sharp-201.png");
+  background-image: url("../images/checkmark-circle-01-stroke-sharp-201.webp");
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -5917,7 +5917,7 @@ figure {
 }
 
 .projects-rich-text-02 li {
-  background-image: url("../images/checkmark-circle-01-stroke-sharp-201.png");
+  background-image: url("../images/checkmark-circle-01-stroke-sharp-201.webp");
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -6038,7 +6038,7 @@ figure {
 }
 
 .pricing-details-rich-content li {
-  background-image: url("../images/checkmark-badge-01-stroke-sharp-201.png");
+  background-image: url("../images/checkmark-badge-01-stroke-sharp-201.webp");
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -6212,7 +6212,7 @@ figure {
 }
 
 .team-details-image-wrapper {
-  background-image: url("../images/rectangle-2074.png");
+  background-image: url("../images/rectangle-2074.webp");
   background-position: 0 0;
   background-size: auto;
   width: 100%;
@@ -6366,7 +6366,7 @@ figure {
   text-align: center;
   letter-spacing: -.64px;
   background-color: #180c25;
-  background-image: url("../images/inverted-comma.png"), url("../images/mask-20group-20-37-.png");
+  background-image: url("../images/inverted-comma.webp"), url("../images/mask-20group-20-37-.webp");
   background-position: 50% 18%, 50%;
   background-repeat: no-repeat, no-repeat;
   background-size: auto, cover;
@@ -6388,7 +6388,7 @@ figure {
 }
 
 .blog-details-rich-content li {
-  background-image: url("../images/checkmark-badge-01-stroke-sharp-201.png");
+  background-image: url("../images/checkmark-badge-01-stroke-sharp-201.webp");
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -10847,7 +10847,7 @@ figure {
   }
 
   .blog-details-rich-content blockquote {
-    background-image: url("../images/mask-20group-20-37-.png");
+    background-image: url("../images/mask-20group-20-37-.webp");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
