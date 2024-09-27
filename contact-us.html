@@ -57,8 +57,8 @@
     <link href="../images/app-icon.png" rel="apple-touch-icon" />
     <script type="text/javascript">
       window.__WEBFLOW_CURRENCY_SETTINGS = {
-        currencyCode: "USD",
-        symbol: "$",
+        currencyCode: "INR",
+        symbol: "₹",
         decimal: ".",
         fractionDigits: 2,
         group: ",",
@@ -448,8 +448,10 @@
                                 points="6.23223305 8 0.616116524 13.6161165 2.38388348 15.3838835 8 9.76776695 13.6161165 15.3838835 15.3838835 13.6161165 9.76776695 8 15.3838835 2.38388348 13.6161165 0.616116524 8 6.23223305 2.38388348 0.616116524 0.616116524 2.38388348 6.23223305 8"
                               ></polygon>
                             </g>
-                          </g></svg>
-                      ></a>
+                          </g>
+                        </svg>
+                        ></a
+                      >
                     </div>
                     <div
                       class="w-commerce-commercecartformwrapper cart-form-wrapper"
@@ -630,7 +632,8 @@
                                       d="M0.894,4.3291 L3.478,6.4431 C4.113,4.5611 5.843,3.1671 7.889,3.1671 C9.018,3.1451 10.102,3.5781 10.912,4.3671 L13.169,2.0781 C11.733,0.7231 9.85,-0.0219 7.889,0.0001 C4.941,0.0001 2.245,1.6791 0.894,4.3291"
                                       mask="url(#google-mark-d)"
                                     ></path>
-                                  </g></svg>
+                                  </g>
+                                </svg>
                                 ><svg
                                   class="w-commerce-commercequickcheckoutmicrosofticon"
                                   xmlns="http://www.w3.org/2000/svg"
@@ -725,6 +728,7 @@
           </div>
         </div>
       </div>
+
       <section class="section inner-benner">
         <div class="container">
           <div class="inner-benner-main-title-wrapper">
@@ -834,94 +838,81 @@
                   </div>
                 </div>
               </div>
+
+              <!-- form -->
+
               <div class="contact-us-right-main-wrapper">
                 <div class="contact-us-right-main-flex">
                   <div class="contact-form w-form">
-                    <form
-                      id="email-form"
-                      name="email-form"
-                      data-name="Email Form"
-                      method="get"
-                      class="contact-form-content"
-                      data-wf-page-id="66a4c4f85e9966b49905b6ec"
-                      data-wf-element-id="f47b29f1-1ee7-0eba-3088-b03b7d7e19d3"
-                    >
+                    <form action="file:///C:/xampp/htdocs/form-process.php" method="post">
                       <div class="contact-fields-grid-wrap">
+        
                         <div class="single-field-wrap">
-                          <label for="First-Name" class="contact-label"
+                          <label for="fullName" class="contact-label"
                             >Your Name *</label
                           ><input
+                            type="text"
+                            name="fullName"
                             class="contact-field w-input"
                             maxlength="256"
-                            name="First-Name"
-                            data-name="First Name"
                             placeholder="Enter Your Name"
-                            type="text"
-                            id="First-Name"
                             required=""
                           />
                         </div>
+        
                         <div class="single-field-wrap">
-                          <label for="Last-Name" class="contact-label"
+                          <label for="email" class="contact-label"
                             >Email Address *</label
                           ><input
+                          type="email"
+                          name="email"
                             class="contact-field w-input"
                             maxlength="256"
-                            name="Last-Name"
-                            data-name="Last Name"
                             placeholder="Ex. emailaddress@email.com"
-                            type="text"
-                            id="Last-Name"
                             required=""
                           />
                         </div>
+        
+        
                         <div class="single-field-wrap">
-                          <label for="Phone" class="contact-label"
+                          <label for="subject" class="contact-label"
                             >Subject *</label
                           ><input
+                          type="tel"
+                          id="subject"
+                          name="subject"
                             class="contact-field w-input"
                             maxlength="256"
-                            name="Phone"
                             data-name="Phone"
                             placeholder="Ex. Want Consultation"
-                            type="tel"
-                            id="Phone"
                             required=""
                           />
                         </div>
-                      </div>
+        
+        
                       <div class="single-field-wrap textarea">
-                        <label for="Message" class="contact-label"
+                        <label for="message" class="contact-label"
                           >Your Message *</label
                         ><textarea
-                          id="Message"
-                          name="Message"
+                        name="message"
                           maxlength="5000"
-                          data-name="Message"
                           placeholder="Write what you want to share with us."
                           required=""
                           class="contact-textarea w-input"
                         ></textarea>
                       </div>
+        
                       <div class="contact-footer-form-submit-button">
                         <div class="footer-form-submit-button-wrap">
                           <input
                             type="submit"
+                            value="Submit"
                             data-wait="Please wait..."
                             class="contact-submit-button w-button"
-                            value="Submit"
                           />
                         </div>
                       </div>
                     </form>
-                    <div class="w-form-done">
-                      <div>Thank you! Your submission has been received!</div>
-                    </div>
-                    <div class="w-form-fail">
-                      <div>
-                        Oops! Something went wrong while submitting the form.
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
