@@ -46,6 +46,10 @@ dfn {
   font-style: italic;
 }
 
+.mains{
+  font-size: 94px;
+}
+
 h1 {
   margin: .67em 0;
   font-size: 2em;
@@ -378,6 +382,10 @@ pre.w-code-block code {
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
   font-weight: bold;
+}
+
+.mains{
+  font-size: 94px;
 }
 
 h1 {
@@ -3207,12 +3215,16 @@ body {
   line-height: 155%;
 }
 
+.mains{
+  font-size: 94px;
+}
+
 h1 {
   letter-spacing: -.8px;
   margin-top: 0;
   margin-bottom: 0;
   font-family: Lexend, sans-serif;
-  font-size: 94px;
+  font-size: 64px;
   font-weight: 500;
   line-height: 111%;
 }
@@ -8286,8 +8298,13 @@ figure {
 }
 
 @media screen and (max-width: 991px) {
-  h1 {
+
+  .mains{
     font-size: 64px;
+  }
+
+  h1 {
+    font-size: 56px;
     line-height: 116%;
   }
 
@@ -9975,8 +9992,13 @@ figure {
 }
 
 @media screen and (max-width: 767px) {
-  h1 {
+
+  .mains{
     font-size: 50px;
+  }
+
+  h1 {
+    font-size: 40px;
     line-height: 120%;
   }
 
@@ -11366,7 +11388,12 @@ figure {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 479px) {  
+
+  .mains{
+    font-size: 35px;
+  }
+
   h1 {
     font-size: 35px;
     line-height: 45px;
@@ -12075,7 +12102,7 @@ figure {
   }
 
   .inner-benner-title {
-    font-size: 25px;
+    font-size: 29px;
   }
 
   .inner-benner-text-link {
