@@ -7,6 +7,18 @@
  */
 
 (() => {
+
+  document.querySelectorAll('a').forEach(link => {
+    if (
+      link.href === window.location.href || 
+      link.href === window.location.pathname ||
+      (link.href.includes('blogs') && window.location.href.includes('blogs'))
+    ) {
+      link.classList.add('w--current');
+    }
+  });
+
+  
   var Hte = Object.create;
   var D1 = Object.defineProperty;
   var Gte = Object.getOwnPropertyDescriptor;
@@ -31046,7 +31058,7 @@ __p+='`),
           a = a0.env(),
           o = window.location,
           s = document.createElement("a"),
-          c = "w--current",
+          c = "w--currents",
           u = /index\.(html|php)$/,
           l = /\/$/,
           f,
